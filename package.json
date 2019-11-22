@@ -1,0 +1,22 @@
+{
+  "name": "awesome_api_tools",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "author": "soberz <710411486@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "bulid&publish": "yarn run build && yarn publish"
+  },
+  "dependencies": {
+    "@types/mockjs": "^1.0.2",
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  }
+}

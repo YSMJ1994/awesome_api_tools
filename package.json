@@ -1,8 +1,9 @@
 {
-  "name": "awesome_api_tools",
+  "name": "awesome-api-tools",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "typings": "es/index.d.ts",
   "author": "soberz <710411486@qq.com>",
   "license": "MIT",
   "scripts": {
